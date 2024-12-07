@@ -17,7 +17,7 @@ This hybrid approach reduced false negatives and positives compared to individua
 ### Conclusion and Future Directions
 Our research explored machine learning methods for heart disease prediction. While Random Forest and XGBoost were strong individual models, their limitations in handling edge cases highlighted the need for a hybrid approach. By combining these models through soft voting, the hybrid model balanced strengths, improving predictive performance and robustness.
 
-**Key Drawbacks:** The hybrid model required longer training times compared to individual models. To address this, parallel processing with distributed libraries (e.g., TensorFlow) can optimize hyperparameter tuning without compromising accuracy.
+**Limitation:** The hybrid model required longer training times compared to individual models. To address this, parallel processing with distributed libraries can optimize hyperparameter tuning without compromising accuracy.
 
 **Future Improvements:**
 1. **Dataset Expansion**: Include more diverse clinical populations to improve generalization for underrepresented groups.
